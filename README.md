@@ -1,1 +1,91 @@
-# zero-waste-school-events
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zero-Waste School Events</title>
+  <style>
+    body{font-family:Arial, sans-serif; margin:0; background:#f4fff6; color:#1f2d1f;}
+    header{background:#1f7a3a; color:white; padding:18px;}
+    header h1{margin:0;}
+    header p{margin:6px 0 0;}
+    .wrap{max-width:900px; margin:auto; padding:16px;}
+    .card{background:white; border-radius:14px; padding:16px; margin:12px 0; box-shadow:0 4px 12px rgba(0,0,0,0.08);}
+    .badge{display:inline-block; background:#e6ffef; color:#1f7a3a; padding:6px 10px; border-radius:999px; font-size:13px; font-weight:bold;}
+    ul{line-height:1.7;}
+    .grid{display:grid; grid-template-columns:1fr; gap:12px;}
+    @media(min-width:700px){.grid{grid-template-columns:1fr 1fr;}}
+    .btn{display:inline-block; background:#1f7a3a; color:white; padding:10px 14px; border-radius:10px; text-decoration:none; font-weight:bold;}
+    .mini{font-size:13px; color:#3a5a3a;}
+    footer{padding:16px; text-align:center; font-size:13px; color:#2f4f2f;}
+    .highlight{background:#fff6cc; padding:10px; border-radius:10px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Advocate Zero Waste at School Events</h1>
+    <p>PTA meetings • School discos • Football matches • Community days</p>
+  </header>
+
+  <div class="wrap">
+    <div class="card">
+      <span class="badge">Why it matters</span>
+      <h2>Events = Bigger Footprint</h2>
+      <p>
+        School events bring families and the whole community together—so they can also create
+        more <b>food waste</b>, <b>plastic</b>, and <b>trash</b>. We can make events fun <i>and</i> kind to the planet.
+      </p>
+      <div class="highlight">
+        <b>Goal:</b> “Leave memories, not mess.”
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <span class="badge">Step 1</span>
+        <h2>Plan Food to Stop Waste</h2>
+        <ul>
+          <li>Count guests (students + families).</li>
+          <li>Serve the right amount (not too much).</li>
+          <li>Offer smaller portions first, then refill if needed.</li>
+          <li>Keep a “leftover table” for unopened items.</li>
+        </ul>
+        <p class="mini">
+          Tip: Use RSVP forms to estimate food numbers.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="badge">Step 2</span>
+        <h2>Choose Better Packaging</h2>
+        <ul>
+          <li>Pick <b>recyclable</b> packaging made from recycled content.</li>
+          <li>Choose items with <b>least packaging</b>.</li>
+          <li>Use <b>condiment dispensers</b> instead of tiny packets.</li>
+          <li>Buy in bulk with compostable or recyclable wrappers.</li>
+        </ul>
+        <p class="mini">
+          Bonus: Clean wrappers can be reused for crafting activities!
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="badge">Student Power</span>
+      <h2>What Students Can Do</h2>
+      <ul>
+        <li>Bring a reusable water bottle.</li>
+        <li>Use a reusable lunch box or cutlery.</li>
+        <li>Volunteer as a “Zero-Waste Helper” during events.</li>
+        <li>Remind others politely: “Recycle here, compost here.”</li>
+      </ul>
+      <a class="btn" href="#">I Support Zero-Waste Events</a>
+      <p class="mini">(You can replace this with a real link later.)</p>
+    </div>
+
+    <footer>
+      Made by Adyan Mohammed BEig 7-O • Clean school, kind community 🌱
+    </footer>
+  </div>
+</body>
+</html>
